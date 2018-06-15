@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bell14" >
+
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_x="1dp"
+        android:layout_y="0dp"
+        android:background="#000099"
+        android:gravity="center"
+        android:text="Sign up" 
+         android:textColor="#d5f0f4"
+        android:textSize="23dp"
+        android:textStyle="bold|italic"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_x="2dp"
+        android:layout_y="-2dp"
+        android:src="@drawable/icon1" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="73dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#9ce5fb" 
+          android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="112dp"
+        android:ems="10"
+        android:hint="Email"
+        android:textColorHint="#9ce5fb"
+        android:inputType="textEmailAddress" 
+          android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="152dp"
+        android:textColorHint="#9ce5fb"
+        android:ems="10"
+        android:hint="Phone No."
+        android:inputType="phone" 
+          android:textColor="#ffffff"/>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:layout_x="66dp"
+        android:layout_y="293dp"
+        android:text="Show/Hide Password"
+        android:textColor="#9ce5fb" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="237dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#9ce5fb" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="346dp"
+        android:background="#27a6cc"
+        android:fontFamily="sans-serif-medium"
+        android:text="Submit"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="205dp"
+        android:ems="10"
+        android:hint="Wedding Date"
+        android:inputType="date"
+        android:textColorHint="#9ce5fb"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_x="188dp"
+        android:layout_y="191dp"
+        android:background="#ffffff"
+        android:textColor="#9ce5fb"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="69dp"
+        android:layout_height="42dp"
+        android:layout_x="236dp"
+        android:layout_y="191dp"
+        android:background="#ffffff"
+        android:textColor="#9ce5fb"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_x="139dp"
+        android:layout_y="191dp"
+        android:background="#ffffff"
+        android:textSize="18dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/scrollView1"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent" >
+
+
+
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="500dp" >
+
+
+
+        <Button
+
+            android:id="@+id/button1"
+
+            android:layout_width="160dp"
+
+            android:layout_height="160dp"
+
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentTop="true"
+
+           android:textStyle="bold"
+
+          android:textColor="#db056a"
+
+          android:textSize="10dp"
+
+           android:background="#ffffff"
+
+           />
+
+
+
+        <Button
+
+            android:id="@+id/button2"
+
+            android:layout_width="160dp"
+
+            android:layout_height="160dp"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_alignParentTop="true"
+
+             android:textStyle="bold"
+
+                 android:textColor="#db056a"
+
+                     
+
+                  android:textSize="10dp"
+
+           android:background="#ffffff"
+
+            />
+
+
+
+        <Button
+
+            android:id="@+id/button4"
+
+            android:layout_width="160dp"
+
+            android:layout_height="160dp"
+
+            android:layout_alignBaseline="@+id/button3"
+
+            android:layout_alignBottom="@+id/button3"
+
+            android:layout_alignParentRight="true"
+
+              android:textColor="#db056a"
+
+             android:textStyle="bold"
+
+                 android:textSize="10dp"
+
+          android:background="#ffffff"/>
+
+       
+
+        <Button
+
+            android:id="@+id/button3"
+
+            android:layout_width="160dp"
+
+            android:layout_height="160dp"
+
+            android:layout_below="@+id/button1"
+
+            android:layout_marginTop="0dp"
+
+            android:layout_toLeftOf="@+id/button4"
+
+                android:textColor="#db056a"
+
+            android:textStyle="bold"
+
+                android:textSize="10dp"
+
+          android:background="#ffffff" />
+
+
+
+        <Button
+
+            android:id="@+id/button5"
+
+            android:layout_width="160dp"
+
+            android:layout_height="160dp"
+
+            android:layout_below="@+id/button4"
+
+            android:layout_toLeftOf="@+id/button4"
+
+               android:textColor="#db056a"
+
+            android:textStyle="bold"
+
+                android:textSize="10dp"
+
+          android:background="#ffffff"/>
+
+
+
+        <Button
+
+            android:id="@+id/button6"
+
+            android:layout_width="160dp"
+
+            android:layout_height="160dp"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_below="@+id/button4"
+
+                 android:textColor="#db056a"
+
+            android:textStyle="bold"
+
+                android:textSize="10dp"
+
+          android:background="#ffffff" />
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

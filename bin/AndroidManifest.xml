@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.weddingorganizer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+<uses-permission android:name="android.permission.CALL_PHONE"/>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.weddingorganizer.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.weddingorganizer.BellFirstActivity"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.weddingorganizer.BellRecoverActivity"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.weddingorganizer.BellSecondActivity"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.weddingorganizer.BellSignupActivity"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.weddingorganizer.BellLeftoverActivity"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.weddingorganizer.FoodActivity"
+            android:label="@string/app_name" >
+            </activity>
+<activity
+            android:name="com.example.weddingorganizer.ClothesActivity"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.weddingorganizer.MoneyActivity"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.weddingorganizer.GiftsActivity"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.weddingorganizer.BellHomeActivity"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.weddingorganizer.BellCaterActivity"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.weddingorganizer.BellDecorActivity"
+            android:label="@string/app_name" >
+                </activity>
+                <activity
+            android:name="com.example.weddingorganizer.BellDjActivity"
+            android:label="@string/app_name" >
+                </activity>
+                <activity
+            android:name="com.example.weddingorganizer.BellDesignerActivity"
+            android:label="@string/app_name" >
+                </activity>
+                <activity
+            android:name="com.example.weddingorganizer.BellVendorActivity"
+            android:label="@string/app_name" >
+            </activity>
+            
+<activity
+            android:name="com.example.weddingorganizer.MainActivity1"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.weddingorganizer.BellPhotoActivity"
+            android:label="@string/app_name" >
+            </activity>
+            
+             <activity
+            android:name="com.example.weddingorganizer.HomePageActivity"
+            android:label="@string/app_name" >
+            </activity>
+            
+    </application>
+
+</manifest>
